@@ -1,38 +1,31 @@
 {
-  "updatedAt": "2026-06-30T17:45:24.558Z",
-  "framework": "Next.js",
-  "dbModels": [],
-  "apiRoutes": [],
-  "pages": [
-    "app/page.tsx",
-    "pages/_app.tsx",
-    "pages/_document.tsx"
-  ],
-  "components": [
+  "goal": "build me a temple run type game",
+  "updatedAt": "2026-06-30T17:10:00.000Z",
+  "runCount": 5,
+  "autonomousIteration": 0,
+  "repoUrl": "https://github.com/kaylalee41198/temple-run-game",
+  "deployUrl": null,
+  "fileCount": 19,
+  "files": [
+    ".gitignore",
+    "BRAIN.md",
+    "CRITERIA.md",
+    "PROJECT_STATE.json",
+    "README.md",
+    "app/globals.css",
     "app/layout.tsx",
+    "app/page.tsx",
     "components/temple-run-game.tsx",
     "components/ui/button.tsx",
-    "components/ui/card.tsx"
+    "components/ui/card.tsx",
+    "lib/game-engine.ts",
+    "lib/utils.ts",
+    "next-env.d.ts",
+    "next.config.mjs",
+    "package.json",
+    "postcss.config.mjs",
+    "tailwind.config.ts",
+    "tsconfig.json"
   ],
-  "dependencies": [
-    "@radix-ui/react-slot",
-    "@types/node",
-    "@types/react",
-    "@types/react-dom",
-    "autoprefixer",
-    "class-variance-authority",
-    "clsx",
-    "eslint",
-    "eslint-config-next",
-    "lucide-react",
-    "next",
-    "postcss",
-    "postcss-load-config",
-    "react",
-    "react-dom",
-    "tailwind-merge",
-    "tailwindcss",
-    "typescript"
-  ],
-  "fileCount": 21
+  "lastRunSummary": "Fixed production build: removed empty pages/ directory (caused /_document PageNotFoundError) and added missing CSS variables to globals.css (tailwind.config.ts referenced hsl(var(--primary)) etc. but they weren't defined). Pushed to GitHub. Deploy infra unavailable — user can redeploy from GitHub."
 }
