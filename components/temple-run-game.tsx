@@ -1,16 +1,16 @@
 "use client";
 
-import React, { useRef, useEffect, useState, useCallback } from "react";
+import { useRef, useEffect, useState, useCallback } from "react";
 import {
   createInitialState,
-  startGame,
   updateGame,
+  renderGame,
   moveLeft,
   moveRight,
   jump,
   slide,
-  renderGame,
-  GameState,
+  startGame,
+  type GameState,
 } from "@/lib/game-engine";
 
 export default function TempleRunGame() {
