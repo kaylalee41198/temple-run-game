@@ -1,0 +1,38 @@
+{
+  "updatedAt": "2026-06-30T17:45:24.558Z",
+  "framework": "Next.js",
+  "dbModels": [],
+  "apiRoutes": [],
+  "pages": [
+    "app/page.tsx",
+    "pages/_app.tsx",
+    "pages/_document.tsx"
+  ],
+  "components": [
+    "app/layout.tsx",
+    "components/temple-run-game.tsx",
+    "components/ui/button.tsx",
+    "components/ui/card.tsx"
+  ],
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "@types/node",
+    "@types/react",
+    "@types/react-dom",
+    "autoprefixer",
+    "class-variance-authority",
+    "clsx",
+    "eslint",
+    "eslint-config-next",
+    "lucide-react",
+    "next",
+    "postcss",
+    "postcss-load-config",
+    "react",
+    "react-dom",
+    "tailwind-merge",
+    "tailwindcss",
+    "typescript"
+  ],
+  "fileCount": 21
+}
